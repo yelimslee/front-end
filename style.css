@@ -181,7 +181,7 @@ a:hover{
 
 
 #profile-picture{
-    width: 400px;
+    width: 300px;
     margin-right: 60px;
 }
 
@@ -295,12 +295,16 @@ a[title="Flaticon"]:hover{
 .article{
     display: flex;
     flex-direction: row;
-    margin-bottom: 500px;
+    margin-bottom: 250px;
     align-items: left;
 }
 
 .thumbnail{
     width: 500px;
+}
+
+.thumbnail3{
+    width: 400px;
 }
 
 .article-info{
@@ -363,7 +367,7 @@ a[title="Flaticon"]:hover{
 #name2-2{
     text-align: right;
     position: relative;
-    left: 100px;
+    left: 0px;
 }
 
 #name2-2:hover{
