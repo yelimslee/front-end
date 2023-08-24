@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Clock</title>
+</head>
+<body>
+    
+    <div class="battery">배터리: <span id="batteryPercent">100%</span></div>
+    <div class="clock" id="clock">00:00:00</div>
+    <div class="alarm-container">
+        <h2>알람</h2>
+        <input type="time" id="alarmTime">
+        <button id="addAlarm">알람 추가</button>
+        <ul id="alarmList"></ul>
+    </div>
+    <div class="animation-container" id="animationContainer"></div> 
+    <script src="script.js"></script>
+</body>
+</html>
