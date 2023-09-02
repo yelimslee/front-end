@@ -1,0 +1,83 @@
+.container {
+  background-color: #fdecf4;
+  color: #fdaaaa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+#task {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+#Push {
+  background-color: #fdaaaa;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+}
+
+#Push:hover {
+  background-color: #f75d8c;
+}
+
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#taskList li {
+  background-color: #fdecf4;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#taskList li button {
+  background-color: #fdaaaa;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#taskList li button:hover {
+  background-color: #f75d8c;
+}
+
+#addTask {
+  background-color: #fdaaaa;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#addTask a:hover {
+  background-color: #f75d8c;
+}

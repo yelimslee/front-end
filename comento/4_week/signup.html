@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css"> 
+    <title>회원 가입</title>
+</head>
+<body>
+  <div class="login-container">
+    <h2>회원 가입</h2>
+    <form id="signup-form">
+      <input type="text" id="username" placeholder="아이디" required>
+      <span id="duplicate-message"></span> <!-- 아이디 중복 메시지 표시 -->
+      <input type="password" id="password" placeholder="비밀번호" required>
+      <input type="password" id="confirm-password" placeholder="비밀번호 확인" required>
+      <span id="password-message"></span> <!-- 비밀번호 조건 메시지 표시 -->
+      <div class="terms-checkbox">
+        <input type="checkbox" id="terms-agree" required>
+        <label for="agree">[필수]인증 약관 전체동의</label>
+      </div>
+      <button type="button" id="signup-button" disabled>회원 가입 하기</button>
+    </form>
+  </div>
+
+  <div class="back-button">
+    <a href="login.html">뒤로 가기</a>
+  </div>
+  <script src="signup.js"></script>
+</body>
+</html>

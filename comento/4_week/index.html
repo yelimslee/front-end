@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>할 일 목록</title>
+</head>
+<body>
+    <div class="container">
+        
+        <h1 id="welcome-message">환영합니다!</h1>
+        <input type="text" id="task" placeholder="할 일을 추가하세요">
+        <button id="addTask">추가</button>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+
+    <script>
+        
+        const urlParams = new URLSearchParams(window.location.search);
+        const username = urlParams.get('username');
+        const welcomeMessage = document.getElementById('welcome-message');
+
+        if (username) {
+            welcomeMessage.textContent = `${username}님, 환영합니다!`;
+        }
+    </script>
+</body>
+</html>
